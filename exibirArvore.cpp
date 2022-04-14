@@ -23,4 +23,5 @@ void exibirPreOrdemIterativo (Tree *T)
 			push(&P, T);
 		}	
 	}
+    // Teste
 }
