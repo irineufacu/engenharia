@@ -14,18 +14,13 @@ void exibirPreOrdemIterativo (Tree *T)
 				printf("\n%d", T->info);
 				push(&P, T);
 				T = T->esq;
-			}
-								
-		}
-	
+			}								
+		}	
 		pop(&P, &T);				
-		T = T->dir;
-	
+		T = T->dir;	
 		if(T != NULL)
 		{
 			push(&P, T);
 		}	
-		
 	}
-	
 }
